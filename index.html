@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ビンゴ抽選</title>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <style media="screen">
+    #{
+      margin: 0;
+      padding: 0;
+    }
+    #num{
+      font-size: 320px;
+      width: 640px;
+      height: 320px;
+      line-height: 320px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: 'Fjalla One', sans-serif;
+    }
+    #history{
+      word-wrap: break-word;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 30px;
+      margin: 0px;
+    }
+    #btn{
+      width:320px;
+      font-size:24px;
+      font-weight:bold;
+      text-decoration:none;
+      margin: 0 auto;
+      display:block;
+      text-align:center;
+      padding:8px 0 10px;
+      color:#fff;
+      background-color:#49a9d4;
+      border-radius:5px;
+      outline: none;
+    }
+    </style>
+    <script type="text/javascript" src="CreateNum.js" ></script>
+  </head>
+  <body>
+    <h1 id="title">今回の抽選番号</h1>
+    <p id="num">??</p>
+    <button id="btn" type="button">抽選</button>
+    <h3>履歴</h3>
+    <p id="history">none</p>
+  </body>
+</html>
